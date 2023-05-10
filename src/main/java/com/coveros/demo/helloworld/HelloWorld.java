@@ -10,7 +10,7 @@ public class HelloWorld {
     final LocalDateTime now = LocalDateTime.now();
 
     System.out.println("Hello, World! The current time is " + dtf.format(now));
-    System.out.println("Username is " + ${UserName});
+    System.out.println("Username is " + System.getProperty{UserName};
   }
 
 }
